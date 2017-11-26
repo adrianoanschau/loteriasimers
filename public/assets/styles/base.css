@@ -1,0 +1,34 @@
+body.home .panel{
+    margin:50px auto;
+    max-width:600px;
+    text-align:center;
+}
+
+.numero{
+    display: inline-block;
+    padding:5px;
+    min-width:30px;
+    border-radius:100%;
+    margin-bottom:5px;
+}
+
+button.numero{
+    background-color:white;
+    color:dodgerblue;
+    border:1px solid dodgerblue;
+    outline: none;
+}
+
+button.numero:hover{
+    background-color:lightgray;
+}
+button.numero.active{
+    background-color:dodgerblue;
+    color:white;
+}
+
+span.numero{
+    background-color:dodgerblue;
+    color:white;
+    border:0;
+}
