@@ -10,7 +10,7 @@ define("TITLE","Loteria Simers - Sistema de Apostas");
 define("BASEURL","//{$_SERVER['HTTP_HOST']}/");
 define("PUBLICPATH",$_SERVER['DOCUMENT_ROOT']);
 define("TEMPLATES",dirname($_SERVER['DOCUMENT_ROOT'])."/templates/");
-define("JSONPATH","{$_SERVER['DOCUMENT_ROOT']}assets/json/");
+define("JSONPATH","{$_SERVER['DOCUMENT_ROOT']}/assets/json/");
 
 function dump($dump){
     echo "<pre>";
